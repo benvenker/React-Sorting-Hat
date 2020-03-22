@@ -11,17 +11,17 @@ const Questionnaire = props => {
     <div className="questionnaire">
       <h1>Please Answer all of the following questions...</h1>
       <form>
-        <label>What qualities do you value most?</label>
+        <label>What is your strongest quality?</label>
         <input type="text" placeholder="Enter qualities..." />
-        <label>What qualities do you value most?</label>
+        <label>What is your weakest quality?</label>
         <input type="text" placeholder="Enter qualities..." />
-        <label>What qualities do you value most?</label>
+        <label>What qualities do you admire the most?</label>
         <input type="text" placeholder="Enter qualities..." />
-        <label>What qualities do you value most?</label>
+        <label>Whos is the ghost of Slytherin House?</label>
         <input type="text" placeholder="Enter qualities..." />
-        <label>What qualities do you value most?</label>
+        <label>Who is the head of Gryffindor?</label>
         <input type="text" placeholder="Enter qualities..." />
-        <label>What qualities do you value most?</label>
+        <label>What is your greatest fear?</label>
         <input type="text" placeholder="Enter qualities..." />
         <button onClick={handleSubmit} class="btn btn-submit">
           Submit!
