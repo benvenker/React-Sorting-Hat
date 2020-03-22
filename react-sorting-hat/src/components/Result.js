@@ -19,6 +19,7 @@ const Result = () => {
           return <li>{value}</li>;
         })}
       </ul>
+      <p>{house.description}</p>
     </div>
   );
 };
