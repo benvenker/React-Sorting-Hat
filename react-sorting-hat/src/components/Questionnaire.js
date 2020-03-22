@@ -3,7 +3,7 @@ import "./Questionnaire.css";
 
 const Questionnaire = props => {
   const history = props.history;
-  const handleSubmit = (event, props) => {
+  const handleSubmit = event => {
     event.preventDefault();
     history.push("/result");
   };

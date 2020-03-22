@@ -1,4 +1,4 @@
-export const houses = [
+const houses = [
   {
     name: "Gryffindor",
     values: ["bravery", "daring", "nerve", "chivalry"],
@@ -32,3 +32,5 @@ export const houses = [
       "https://vignette.wikia.nocookie.net/harrypotter/images/7/72/Ccd53034-c798-452a-8032-f28e06250d8f.jpg/revision/latest?cb=20160729150848"
   }
 ];
+
+export default houses;

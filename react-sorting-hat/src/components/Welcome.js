@@ -1,6 +1,11 @@
 import React from "react";
 
-const Welcome = () => {
+const Welcome = props => {
+  const history = props.history;
+  const handleClick = event => {
+    event.preventDefault();
+    history.push("/questionnaire");
+  };
   return (
     <div>
       <h1>Welcome to the Sorting Hat!</h1>
@@ -9,7 +14,7 @@ const Welcome = () => {
         assigned. You will be asked a series of questions which will help the
         Hat decide where to place you. Good luck!
       </p>
-      <button>Begin!</button>
+      <button onClick={handleClick}>Begin!</button>
     </div>
   );
 };
